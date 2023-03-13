@@ -72,7 +72,7 @@ body {
 }
 
 .btn-outline {
-  border: 1px solid white;
+  border: 2px solid white;
 }
 
 .hero-img {
@@ -151,4 +151,48 @@ body {
   font-size: 20px;
   font-weight: bold;
   align-self: flex-end;
+}
+
+/* Call to Action */
+.cta {
+  padding: 100px 250px;
+}
+
+.cta-content {
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+  padding: 50px 100px;
+  border-radius: 10px;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.cta-text h2, .cta-text p {
+  margin: 0;
+}
+
+.cta-text p {
+  color: #e5e7eb;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 30px 250px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: center;
+  letter-spacing: 1px;
 }
