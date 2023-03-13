@@ -79,3 +79,51 @@ body {
   flex: 1;
   height: 400px;
 }
+
+/* Information Section */
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 250px;
+  gap: 60px;
+}
+
+.info h2 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  color: #1f2937;
+}
+
+.info-card-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex: 0;
+}
+
+.svg-placeholder {
+  width: 200px;
+  height: 200px;
+  border: 6px solid #3882f6;
+  border-radius: 10px;
+}
+
+.info-card p {
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  color: #727982;
+  letter-spacing: 0.5px;
+}
